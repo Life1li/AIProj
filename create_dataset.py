@@ -21,7 +21,7 @@ def make_data():
 
 
 def download_dataset(artist):  # api call
-    api = genius.Genius('OtmDtw5-YP0nx3eBs6lXVK23Cn0-gzM_FcodeRol2O-_j58w4JRHd801WF_8lsmS')
+    api = genius.Genius('qKFW-47bQhciA2POBZTClBVZp0Kru3qbhtrkavXWzC8nHAL298zON-KDOeIiekRz')
     artist = api.search_artist(artist, get_full_info=False)
     artist.save_lyrics(filename='artist', overwrite=True, verbose=True)
 
