@@ -1,4 +1,4 @@
-# Library to auto generate a dataset of artist lyrics from the genius api and generate new songs based on these lyrics using the nlp n-gram model
+# This project uses a Python script to generate song lyrics based on a trained language model. The script `generate.py` can be customized to generate lyrics of varying lengths and styles, depending on the input model and parameters provided by the user.
 
 ## Prerequisites
 - Python 3.6 or higher
