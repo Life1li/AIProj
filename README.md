@@ -19,11 +19,11 @@ pip install openai lyricsgenius nltk
 
 pip install googletrans==4.0.0-rc1
 
-python create_dataset_genuis.py
+python create_dataset.py
 after generating the artist.json file
 
-python train.py --input-dir data --model all_grams.txt
+python train_model.py --input-dir data --model all_grams.txt
 after createing the all_grams.txt file
 if error/empty I have added a all_grams file in data.zip move to under AIProj directory and then generate
 
-python generate.py
+python generate_lyrics.py
