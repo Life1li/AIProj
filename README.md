@@ -1,4 +1,4 @@
-# Library to automatically generate a dataset of artist lyrics from the genius api and generate new songs based on these lyrics using the nlp n-gram model
+# Library to auto generate a dataset of artist lyrics from the genius api and generate new songs based on these lyrics using the nlp n-gram model
 
 ## Prerequisites
 - Python 3.6 or higher
