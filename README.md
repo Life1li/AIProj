@@ -7,7 +7,7 @@
 
 ## Installation
 First, clone the repository to your local machine:
-
+ then extract the data.zip file
 pip install numpy
 source venv/bin/activate or on windows venv\Scripts\activate
 if windows has issues do
