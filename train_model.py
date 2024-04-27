@@ -71,7 +71,7 @@ def make_data(texts):
 if __name__ == '__main__':
     model = args.model
     input_dir = args.input_dir
-
+ 
     texts = []
     if input_dir is None:
         print("end input by word end")
