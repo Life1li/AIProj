@@ -88,7 +88,7 @@ def make_text(all_grams, length, prefix=None):
 
     # Print both original and translated text
     print("Original:", generated_text)
-    print("Translated:", translated_text)
+    # print("Translated:", translated_text)
 
 if __name__ == '__main__':
     model = args.model
