@@ -3,26 +3,28 @@
 ## Prerequisites
 - Python 3.6 or higher
 - NumPy package
-- `googletrans` package (for translation features)
+- `googletrans` package (for translation features if needed)
 
 ## Installation
-First, clone the repository to your local machine:
- then extract the data.zip file
-pip install numpy
+First, clone the repository to your local machine(my terminal was wsl):
+then extract the data.zip file
+
+pip or pip3 install numpy
 source venv/bin/activate or on windows venv\Scripts\activate
 if windows has issues do
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 to activate
 venv\Scripts\Activate.ps1
 
-pip install openai lyricsgenius nltk
+pip or pip3 install openai lyricsgenius nltk
 
-pip install googletrans==4.0.0-rc1
+pip or pip3 install googletrans==4.0.0-rc1
 
 python create_dataset.py
+
 after generating the artist.json file
 
-python train_model.py --input-dir data --model all_grams.txt
+python train_model.py 
 after createing the all_grams.txt file
 if error/empty I have added a all_grams file in data.zip move to under AIProj directory and then generate
 
