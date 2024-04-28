@@ -27,7 +27,7 @@ python or python3 create_dataset.py
 after generating the artist.json file
 
 python or python3 train_model.py 
-after createing the all_grams.txt file
+after creating the all_grams.txt file
 if error/empty I have added a all_grams file in data.zip move to under AIProj directory and then generate
 
 python or python3 generate_lyrics.py
