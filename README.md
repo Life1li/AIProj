@@ -16,6 +16,8 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 to activate
 venv\Scripts\Activate.ps1
 
+pip3 or pip3 install pronouncing
+
 pip or pip3 install openai lyricsgenius nltk
 
 pip or pip3 install googletrans==4.0.0-rc1
